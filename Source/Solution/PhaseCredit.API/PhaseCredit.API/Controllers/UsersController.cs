@@ -22,7 +22,7 @@ namespace PhaseCredit.API.Controllers
 
             var response = new UsersResponse();
 
-            response = await _mediator.FetchAsync(new GetUsersResponseQuery(), ct);
+            response = await _mediator.FetchAsync(new GetUsersQuery(), ct);
             return response;
         }
     }

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "GVShuP7XUFQrWM/x5ekzc+tJUH8z7UdedBPpEJ0ddKAGACPA3YrkBE3Ty458/39U5ocX472sRUdawbev+S93Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stanl\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.16.0\\microsoft.identitymodel.jsonwebtokens.6.16.0.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\microsoft.identitymodel.logging\\6.16.0\\microsoft.identitymodel.logging.6.16.0.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.16.0\\microsoft.identitymodel.tokens.6.16.0.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.16.0\\system.identitymodel.tokens.jwt.6.16.0.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

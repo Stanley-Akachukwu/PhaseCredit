@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PhaseCredit.API.Test/1.0.0": {
+        "runtime": {
+          "PhaseCredit.API.Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhaseCredit.API.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

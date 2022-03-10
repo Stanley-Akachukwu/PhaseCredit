@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "40fe2152-51cf-47e4-995c-9266863e258e": {
+      "ProjectGuid": "40fe2152-51cf-47e4-995c-9266863e258e",
+      "DisplayName": "PhaseCredit.API",
+      "ColorIndex": 0
+    },
+    "b6faf34b-14a8-4398-8d87-7fa6ccffe1f9": {
+      "ProjectGuid": "b6faf34b-14a8-4398-8d87-7fa6ccffe1f9",
+      "DisplayName": "PhaseCredit.Core",
+      "ColorIndex": 1
+    },
+    "164a165b-fe3a-46f7-b147-3650f53e3e7f": {
+      "ProjectGuid": "164a165b-fe3a-46f7-b147-3650f53e3e7f",
+      "DisplayName": "PhaseCredit.Core.Tests",
+      "ColorIndex": 2
+    },
+    "4116a710-e4b4-428e-8fae-c2e7557b51b9": {
+      "ProjectGuid": "4116a710-e4b4-428e-8fae-c2e7557b51b9",
+      "DisplayName": "PhaseCredit.Data",
+      "ColorIndex": 3
+    },
+    "5ac38bb3-2088-4695-af7c-f3ffc4de59a3": {
+      "ProjectGuid": "5ac38bb3-2088-4695-af7c-f3ffc4de59a3",
+      "DisplayName": "PhaseCredit.Data.Tests",
+      "ColorIndex": 4
+    },
+    "75195b2d-1888-46f8-8ec5-c31d9c963dcf": {
+      "ProjectGuid": "75195b2d-1888-46f8-8ec5-c31d9c963dcf",
+      "DisplayName": "PhaseCredit.Web",
+      "ColorIndex": 5
+    },
+    "2586a10e-e65b-4bb0-8422-de3c39238cf3": {
+      "ProjectGuid": "2586a10e-e65b-4bb0-8422-de3c39238cf3",
+      "DisplayName": "PhaseCredit.API.Test",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

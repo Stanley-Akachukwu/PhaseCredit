@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.API", "PhaseCredit.API\PhaseCredit.API\PhaseCredit.API.csproj", "{40FE2152-51CF-47E4-995C-9266863E258E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.Core", "PhaseCredit.Core\PhaseCredit.Core\PhaseCredit.Core.csproj", "{B6FAF34B-14A8-4398-8D87-7FA6CCFFE1F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.Core.Tests", "PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests.csproj", "{164A165B-FE3A-46F7-B147-3650F53E3E7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.Data", "PhaseCredit.Data\PhaseCredit.Data\PhaseCredit.Data.csproj", "{4116A710-E4B4-428E-8FAE-C2E7557B51B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.Data.Tests", "PhaseCredit.Data.Tests\PhaseCredit.Data.Tests\PhaseCredit.Data.Tests.csproj", "{5AC38BB3-2088-4695-AF7C-F3FFC4DE59A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhaseCredit.API.Test", "PhaseCredit.API.Test\PhaseCredit.API.Test\PhaseCredit.API.Test.csproj", "{DA98E256-B902-4E8C-BEDF-77BE88C871A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FE2152-51CF-47E4-995C-9266863E258E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FE2152-51CF-47E4-995C-9266863E258E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FE2152-51CF-47E4-995C-9266863E258E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FE2152-51CF-47E4-995C-9266863E258E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FAF34B-14A8-4398-8D87-7FA6CCFFE1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FAF34B-14A8-4398-8D87-7FA6CCFFE1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FAF34B-14A8-4398-8D87-7FA6CCFFE1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FAF34B-14A8-4398-8D87-7FA6CCFFE1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164A165B-FE3A-46F7-B147-3650F53E3E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164A165B-FE3A-46F7-B147-3650F53E3E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164A165B-FE3A-46F7-B147-3650F53E3E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164A165B-FE3A-46F7-B147-3650F53E3E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4116A710-E4B4-428E-8FAE-C2E7557B51B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4116A710-E4B4-428E-8FAE-C2E7557B51B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4116A710-E4B4-428E-8FAE-C2E7557B51B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4116A710-E4B4-428E-8FAE-C2E7557B51B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC38BB3-2088-4695-AF7C-F3FFC4DE59A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC38BB3-2088-4695-AF7C-F3FFC4DE59A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC38BB3-2088-4695-AF7C-F3FFC4DE59A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC38BB3-2088-4695-AF7C-F3FFC4DE59A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC9855F6-00E3-45F9-845C-CD0C67D4AA80}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+Project done.
+
+Next do: 
+            
+0. Unit Test
+1. Setup CI/CD
+2. Secure it
+1. the video
+3. Video for securing it
+
+Dockerize it

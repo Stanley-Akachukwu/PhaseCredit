@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.API\\PhaseCredit.API\\PhaseCredit.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.API\\PhaseCredit.API\\PhaseCredit.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.API\\PhaseCredit.API\\PhaseCredit.API.csproj",
+        "projectName": "PhaseCredit.API",
+        "projectPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.API\\PhaseCredit.API\\PhaseCredit.API.csproj",
+        "packagesPath": "C:\\Users\\stanl\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.API\\PhaseCredit.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core\\PhaseCredit.Core\\PhaseCredit.Core.csproj": {
+                "projectPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core\\PhaseCredit.Core\\PhaseCredit.Core.csproj"
+              },
+              "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj": {
+                "projectPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "SimpleSoft.Mediator": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "SimpleSoft.Mediator.Microsoft.Extensions.LoggingPipeline": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core\\PhaseCredit.Core\\PhaseCredit.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core\\PhaseCredit.Core\\PhaseCredit.Core.csproj",
+        "projectName": "PhaseCredit.Core",
+        "projectPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core\\PhaseCredit.Core\\PhaseCredit.Core.csproj",
+        "packagesPath": "C:\\Users\\stanl\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core\\PhaseCredit.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj": {
+                "projectPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj",
+        "projectName": "PhaseCredit.Data",
+        "projectPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\PhaseCredit.Data.csproj",
+        "packagesPath": "C:\\Users\\stanl\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Data\\PhaseCredit.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stanl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

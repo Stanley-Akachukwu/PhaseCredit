@@ -1,0 +1,15 @@
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\bin\Debug\net6.0\PhaseCredit.Core.deps.json
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\bin\Debug\net6.0\PhaseCredit.Core.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\bin\Debug\net6.0\ref\PhaseCredit.Core.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\bin\Debug\net6.0\PhaseCredit.Core.pdb
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\bin\Debug\net6.0\PhaseCredit.Data.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\bin\Debug\net6.0\PhaseCredit.Data.pdb
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.csproj.AssemblyReference.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.AssemblyInfoInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.AssemblyInfo.cs
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.csproj.CoreCompileInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.csproj.CopyComplete
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\ref\PhaseCredit.Core.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core\PhaseCredit.Core\obj\Debug\net6.0\PhaseCredit.Core.pdb

@@ -2,12 +2,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using FluentValidation;
-using PhaseCredit.Data.Abstract;
-using PhaseCredit.Data.Concrete;
 using System.Text.Json;
 using PhaseCredit.API.Pipelines;
 using PhaseCredit.Core.BusinessLogic.Authentication;
 using PhaseCredit.Core.BusinessLogic;
+using PhaseCredit.Core.Services.Reservations;
+using PhaseCredit.Core.Services.Users;
+using PhaseCredit.Core.Services.Logs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,10 +64,10 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("phasecredit-for-soledealler01"))
         };
     }); 
-builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthenticationManager, AuthenticationManager>();
-builder.Services.AddScoped<ILogManager, LogManager>();
+builder.Services.AddScoped<ILogService, LogService>();
 
 var app = builder.Build();
 

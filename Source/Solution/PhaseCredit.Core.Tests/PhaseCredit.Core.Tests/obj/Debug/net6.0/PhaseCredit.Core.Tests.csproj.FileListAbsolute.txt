@@ -17,6 +17,7 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -110,4 +111,3 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\obj\Debug\net6.0\ref\PhaseCredit.Core.Tests.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\obj\Debug\net6.0\PhaseCredit.Core.Tests.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\obj\Debug\net6.0\PhaseCredit.Core.Tests.genruntimeconfig.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

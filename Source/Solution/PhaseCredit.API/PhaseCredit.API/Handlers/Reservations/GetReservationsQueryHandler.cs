@@ -1,6 +1,6 @@
 ﻿using PhaseCredit.API.Queries.Reservations;
 using PhaseCredit.Core.DTOs.Resrvations;
-using PhaseCredit.Data.Abstract;
+using PhaseCredit.Core.Services.Reservations;
 using SimpleSoft.Mediator;
 
 namespace PhaseCredit.API.Handlers.Reservations
@@ -8,17 +8,17 @@ namespace PhaseCredit.API.Handlers.Reservations
     public class GetReservationsQueryHandler : IQueryHandler<GetReservationsQuery, ListReservationResponse>
     {
         private readonly IMediator _mediator;
-        private readonly IReservationRepository _reserveRepository;
+        private readonly IReservationService _reservationService;
 
-        public GetReservationsQueryHandler(IMediator mediator, IReservationRepository reserveRepository)
+        public GetReservationsQueryHandler(IMediator mediator, IReservationService reservationService)
         {
             _mediator = mediator;
-            _reserveRepository = reserveRepository;
+            _reservationService = reservationService;
         }
        
         public async Task<ListReservationResponse> HandleAsync(GetReservationsQuery query, CancellationToken ct)
         {
-          var reservations = await _reserveRepository.GetReservationAsync();
+          var reservations = await _reservationService.GetReservationAsync();
             if (reservations == null)
             {
                 return new ListReservationResponse

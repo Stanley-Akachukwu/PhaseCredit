@@ -30,6 +30,7 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
@@ -239,4 +240,3 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\ref\PhaseCredit.API.Test.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.genruntimeconfig.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

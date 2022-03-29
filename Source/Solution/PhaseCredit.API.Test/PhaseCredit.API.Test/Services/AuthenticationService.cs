@@ -12,7 +12,7 @@ namespace PhaseCredit.API.Test.Services
             var userLoginResponse = new UserLoginResponse();
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.PostAsJsonAsync("https://localhost:7174/api/authentication/login", request))
+                using (var response = await httpClient.PostAsJsonAsync("https://localhost:5445/api/authentication/login", request))
                 {
                     if (response != null)
                     {

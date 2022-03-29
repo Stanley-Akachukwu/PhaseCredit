@@ -8,7 +8,7 @@ namespace PhaseCredit.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Manager")]
+   [Authorize(Roles = "Admin")]
     public class ReservationController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -16,7 +16,7 @@ namespace PhaseCredit.API.Controllers
         {
             _mediator = mediator;
         }
-        [HttpGet]
+        [HttpGet("reservations")]
         public async Task<ListReservationResponse> GetListAsync(CancellationToken ct)
         {
             var response = new ListReservationResponse();

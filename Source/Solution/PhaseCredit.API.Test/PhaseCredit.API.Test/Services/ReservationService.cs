@@ -13,7 +13,7 @@ namespace PhaseCredit.API.Test.Services
             using (var httpClient = new HttpClient())
             {
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwt);
-                using (var response = await httpClient.GetAsync("https://localhost:7174/api/Reservation"))  
+                using (var response = await httpClient.GetAsync("https://localhost:5445/api/Reservation/reservations"))  
                 {
                     if (response!=null)
                     {

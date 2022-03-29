@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "sOsuOKMujKIUC/p+2zwjTrasAlEm9Te83qkdpdiuw3Q=",
+  "Hash": "IRY5oSyTn7kHGdpoPHa2WMuH+LtE/lE0MOQ4KrixZUU=",
   "Source": "PhaseCredit.API",
   "BasePath": "_content/PhaseCredit.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.IdentityServer4\\PhaseCredit.IdentityServer4\\PhaseCredit.IdentityServer4.csproj",
+      "Version": 2,
+      "Source": "PhaseCredit.IdentityServer4",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

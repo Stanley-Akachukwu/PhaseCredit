@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using PhaseCredit.Core.Services.Logs;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -12,10 +13,10 @@ namespace PhaseCredit.Core.BusinessLogic.Authentication
 {
     public class AuthenticationManager : IAuthenticationManager
     {
-        private readonly ILogManager _logManager;
-        public AuthenticationManager(ILogManager logManager)
+        private readonly ILogService _logService;
+        public AuthenticationManager(ILogService logService)
         {
-            _logManager = logManager;
+            _logService = logService;
         }
         public Task<string> GenerateJSONWebToken(Claim[] claims)
         {
@@ -30,7 +31,7 @@ namespace PhaseCredit.Core.BusinessLogic.Authentication
                 signingCredentials: credentials,
                 claims: claims
                 );
-            _logManager.Log("Token generated", token, LogLevel.Information);
+            _logService.Log("Token generated", token, LogLevel.Information);
             var accessToken = new JwtSecurityTokenHandler().WriteToken(token);
             return Task.FromResult<String>(accessToken);
         }

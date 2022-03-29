@@ -2,7 +2,7 @@
 using PhaseCredit.API.Commands.Authentications;
 using PhaseCredit.Core.BusinessLogic.Authentication;
 using PhaseCredit.Core.DTOs.Authentications;
-using PhaseCredit.Data.Abstract;
+using PhaseCredit.Core.Services.Users;
 using PhaseCredit.Data.Entities.Users;
 using SimpleSoft.Mediator;
 using System.IdentityModel.Tokens.Jwt;
@@ -13,11 +13,11 @@ namespace PhaseCredit.API.Handlers.Authentications
 {
     public class LoginCommandHandler : ICommandHandler<LoginCommand, UserLoginResponse>
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUserService _userService;
         private readonly IAuthenticationManager _authManger;
-        public LoginCommandHandler(IUserRepository userRepository, IAuthenticationManager authManger)
+        public LoginCommandHandler(IUserService userService, IAuthenticationManager authManger)
         {
-            _userRepository = userRepository;
+            _userService = userService;
             _authManger = authManger;
         }
          
@@ -34,7 +34,7 @@ namespace PhaseCredit.API.Handlers.Authentications
                 return response;
             }
 
-            User loginUser = await _userRepository.FindUserAsync(cmd.UserName);
+            User loginUser = await _userService.FindUserAsync(cmd.UserName);
 
             if (loginUser == null)
             {

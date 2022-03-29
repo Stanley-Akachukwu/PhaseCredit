@@ -1,6 +1,6 @@
 ﻿using PhaseCredit.API.Queries.Users;
 using PhaseCredit.Core.DTOs.Users;
-using PhaseCredit.Data.Abstract;
+using PhaseCredit.Core.Services.Users;
 using SimpleSoft.Mediator;
 
 namespace PhaseCredit.API.Handlers.Users
@@ -8,9 +8,9 @@ namespace PhaseCredit.API.Handlers.Users
     public class GetUsersQueryHandler : IQueryHandler<GetUsersQuery, UsersResponse>
     {
         private readonly IMediator _mediator;
-        private readonly IUserRepository _userRepository;
+        private readonly IUserService _userRepository;
 
-        public GetUsersQueryHandler(IMediator mediator, IUserRepository userRepository)
+        public GetUsersQueryHandler(IMediator mediator, IUserService userRepository)
         {
             _mediator = mediator;
             _userRepository = userRepository;

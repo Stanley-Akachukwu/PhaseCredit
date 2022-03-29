@@ -45,7 +45,32 @@
       "ProjectGuid": "da98e256-b902-4e8c-bedf-77be88c871a6",
       "DisplayName": "PhaseCredit.API.Test",
       "ColorIndex": 7
+    },
+    "c873fc20-842d-4e88-be23-d8008eff7fa8": {
+      "ProjectGuid": "c873fc20-842d-4e88-be23-d8008eff7fa8",
+      "DisplayName": "IdS4",
+      "ColorIndex": 8
+    },
+    "8fd8d252-06cb-4adf-a8f6-de76ac7661e1": {
+      "ProjectGuid": "8fd8d252-06cb-4adf-a8f6-de76ac7661e1",
+      "DisplayName": "IdS4",
+      "ColorIndex": 9
+    },
+    "da852441-c89d-4bca-8a39-dba2b3dc8be9": {
+      "ProjectGuid": "da852441-c89d-4bca-8a39-dba2b3dc8be9",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 10
+    },
+    "be6ac6d0-9e98-4956-94f9-751ecc928f97": {
+      "ProjectGuid": "be6ac6d0-9e98-4956-94f9-751ecc928f97",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 11
+    },
+    "09772077-c233-4e93-b6e1-34a4830f6384": {
+      "ProjectGuid": "09772077-c233-4e93-b6e1-34a4830f6384",
+      "DisplayName": "PhaseCredit.IdentityServer4",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 13
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PhaseCredit.API.Test.Interfaces;
 using PhaseCredit.Data.Entities.Reservations;
+using System.Net;
 
 namespace PhaseCredit.API.Test.Controllers
 {
@@ -18,17 +19,17 @@ namespace PhaseCredit.API.Test.Controllers
             var response =  await _reservationService.GetListAsync(jwt);
             List<Reservation> reservationList = new List<Reservation>();
 
-            if (response.ResponseCode == StatusCodes.Status401Unauthorized)
+            if (response.ResponseCode == HttpStatusCode.Unauthorized)
             {
-                HttpContext.Session.SetString("message", "Please Login again");
-                return RedirectToAction("Login");
+                HttpContext.Session.SetString("message", response.ResponseMessage);
+                return RedirectToAction("Login", "Authentication");
             }
-            if (response.ResponseCode == StatusCodes.Status403Forbidden)
+            if (response.ResponseCode == HttpStatusCode.Forbidden)
             {
                 HttpContext.Session.SetString("message", "You are not permitted to the resource.");
-                return RedirectToAction("Login");
+                return RedirectToAction("Login", "Authentication");
             }
-            if (response.ResponseCode == StatusCodes.Status200OK)
+            if (response.ResponseCode == HttpStatusCode.OK)
             {
                 reservationList = response.Reservations;
             }

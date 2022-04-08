@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.Data.Tests", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.API.Test", "PhaseCredit.API.Test\PhaseCredit.API.Test\PhaseCredit.API.Test.csproj", "{DA98E256-B902-4E8C-BEDF-77BE88C871A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhaseCredit.IdentityServer4", "PhaseCredit.IdentityServer4\PhaseCredit.IdentityServer4\PhaseCredit.IdentityServer4.csproj", "{09772077-C233-4E93-B6E1-34A4830F6384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerInMemory", "..\..\..\LocalAuthentications\IdentityServerInMemory\IdentityServerInMemory\IdentityServerInMemory.csproj", "{9795E605-D669-407F-9834-F55CF5CDD554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA98E256-B902-4E8C-BEDF-77BE88C871A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09772077-C233-4E93-B6E1-34A4830F6384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09772077-C233-4E93-B6E1-34A4830F6384}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09772077-C233-4E93-B6E1-34A4830F6384}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09772077-C233-4E93-B6E1-34A4830F6384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9795E605-D669-407F-9834-F55CF5CDD554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9795E605-D669-407F-9834-F55CF5CDD554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9795E605-D669-407F-9834-F55CF5CDD554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9795E605-D669-407F-9834-F55CF5CDD554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

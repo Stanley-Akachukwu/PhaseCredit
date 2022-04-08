@@ -1,20 +1,23 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using FluentValidation;
 using System.Text.Json;
 using PhaseCredit.API.Pipelines;
 using PhaseCredit.Core.BusinessLogic.Authentication;
-using PhaseCredit.Core.BusinessLogic;
 using PhaseCredit.Core.Services.Reservations;
 using PhaseCredit.Core.Services.Users;
 using PhaseCredit.Core.Services.Logs;
+using PhaseCredit.API.Common;
 
 var builder = WebApplication.CreateBuilder(args);
+//var identityServer = builder.Configuration.GetConnectionString("IdentityServer:Url");
+var identityServer = builder.Configuration["IdentityServer:Url"];
 
-// Add services to the container.
+// Add services to the container. 
 
 builder.Services.AddControllers();
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
@@ -43,27 +46,39 @@ builder.Services.AddMediator(o =>
     o.AddHandlersFromAssemblyOf<Program>();
 });
 
-
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-    .AddJwtBearer(options =>
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
     {
-        options.SaveToken = true;
-        options.RequireHttpsMetadata = false;
-        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+        options.Authority = identityServer;
+
+        options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidAudience = "https://www.phasecredit.com",
-            ValidIssuer = "https://www.phasecredit.com",
-            ClockSkew = TimeSpan.Zero,// It forces tokens to expire exactly at token expiration time instead of 5 minutes later
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("phasecredit-for-soledealler01"))
+            ValidateAudience = false
         };
-    }); 
+    });
+
+//builder.Services.AddAuthentication(options =>
+//{
+//    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+//    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+//    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+//})
+//    .AddJwtBearer(options =>
+//    {
+//        options.SaveToken = true;
+//        options.RequireHttpsMetadata = false;
+//        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+//        {
+//            ValidateIssuer = true,
+//            ValidateAudience = true,
+//            ValidAudience = "https://www.phasecredit.com",
+//            ValidIssuer = "https://www.phasecredit.com",
+//            ClockSkew = TimeSpan.Zero,// It forces tokens to expire exactly at token expiration time instead of 5 minutes later
+//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("phasecredit-for-soledealler01"))
+//        };
+//    });
+
+builder.Services.AddScoped<IAppSettings, AppSettings>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthenticationManager, AuthenticationManager>();

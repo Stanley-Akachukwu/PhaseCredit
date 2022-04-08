@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhaseCredit.Core.DTOs.Authentications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -9,6 +10,6 @@ namespace PhaseCredit.Core.BusinessLogic.Authentication
 {
     public interface IAuthenticationManager
     {
-        Task<string> GenerateJSONWebToken(Claim[] claims);
+        Task<IdentityModelTokenResponse> GenerateJSONWebToken(Claim[] claims, string clientId, string clientSecret,string scope, string identityUrl);
     }
 }

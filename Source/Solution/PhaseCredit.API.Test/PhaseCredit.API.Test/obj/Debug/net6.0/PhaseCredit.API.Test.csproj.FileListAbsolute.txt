@@ -9,6 +9,7 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\PhaseCredit.API.Test.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\FluentValidation.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Humanizer.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\IdentityModel.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\MessagePack.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll

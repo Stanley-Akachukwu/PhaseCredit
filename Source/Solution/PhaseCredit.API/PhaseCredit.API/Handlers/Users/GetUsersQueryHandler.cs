@@ -2,6 +2,7 @@
 using PhaseCredit.Core.DTOs.Users;
 using PhaseCredit.Core.Services.Users;
 using SimpleSoft.Mediator;
+using System.Net;
 
 namespace PhaseCredit.API.Handlers.Users
 {
@@ -22,7 +23,7 @@ namespace PhaseCredit.API.Handlers.Users
             {
                 return new UsersResponse
                 {
-                    ResponseCode = StatusCodes.Status404NotFound,
+                    ResponseCode = HttpStatusCode.NotFound,
                     ResponseMessage = "Users list not found"
                 };
             }
@@ -30,7 +31,7 @@ namespace PhaseCredit.API.Handlers.Users
             return new UsersResponse
             {
                 Users = users.ToList(),
-                ResponseCode = StatusCodes.Status200OK,
+                ResponseCode = HttpStatusCode.OK,
                 ResponseMessage = "Successful"
             };
         }

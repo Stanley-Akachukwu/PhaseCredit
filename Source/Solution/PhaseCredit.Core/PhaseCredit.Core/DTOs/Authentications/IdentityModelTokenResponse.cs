@@ -5,12 +5,12 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhaseCredit.Core.DTOs
+namespace PhaseCredit.Core.DTOs.Authentications
 {
-    public class Response
+    public class IdentityModelTokenResponse
     {
-        public string? ResponseMessage { get; set; }
+        public string AccessToken { get; set; }
         public HttpStatusCode ResponseCode { get; set; }
-        public List<string>? ErrorMessages { get; set; }
+        public string Error { get; set; }
     }
 }

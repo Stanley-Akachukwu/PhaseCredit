@@ -1,13 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PhaseCredit.API.Commands.Authentications;
 using PhaseCredit.Core.DTOs.Authentications;
 using SimpleSoft.Mediator;
+using System.Net;
 using System.Security.Claims;
 
 namespace PhaseCredit.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class AuthenticationController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -24,7 +27,7 @@ namespace PhaseCredit.API.Controllers
             {
                 response?.ErrorMessages?.Add("Invalid login credentials.");
                 response.ResponseMessage = "Failed to login!";
-                response.ResponseCode = StatusCodes.Status400BadRequest;
+                response.ResponseCode = HttpStatusCode.BadRequest;
                 return response;
             }
             response = await _mediator.SendAsync(new LoginCommand

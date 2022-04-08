@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pLUhH6WJf7sGQMD1kzOZAIIoVJPD/Yc8qN1CKP0wjwCofz7/gP5DPa564MklO/3S7ZBfZiQQULBOlwbVq4rPFA==",
+  "dgSpecHash": "zIhkJGb8xXpTQ4Q4ebWGGvFxho9U5Mk7ZmOeQEGs2YhtEO9DzHHFgeyoaOjmWhQ2L5Az8hS0+zU0Teyiz7y/tQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.API.Test\\PhaseCredit.API.Test\\PhaseCredit.API.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanl\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",

@@ -2,6 +2,7 @@
 using PhaseCredit.Core.DTOs.Resrvations;
 using PhaseCredit.Core.Services.Reservations;
 using SimpleSoft.Mediator;
+using System.Net;
 
 namespace PhaseCredit.API.Handlers.Reservations
 {
@@ -23,7 +24,7 @@ namespace PhaseCredit.API.Handlers.Reservations
             {
                 return new ListReservationResponse
                 {
-                    ResponseCode = StatusCodes.Status404NotFound,
+                    ResponseCode = HttpStatusCode.NotFound,
                     ResponseMessage = "reservation list not found"
                 };
             }
@@ -31,8 +32,8 @@ namespace PhaseCredit.API.Handlers.Reservations
             return new ListReservationResponse
             {
                 Reservations= reservations.ToList(),
-                ResponseCode=StatusCodes.Status200OK,
-                ResponseMessage="Successful"
+                ResponseCode= HttpStatusCode.OK,
+                ResponseMessage ="Successful"
             };
         }
     }

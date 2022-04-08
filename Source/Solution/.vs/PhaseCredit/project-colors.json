@@ -70,7 +70,22 @@
       "ProjectGuid": "09772077-c233-4e93-b6e1-34a4830f6384",
       "DisplayName": "PhaseCredit.IdentityServer4",
       "ColorIndex": 12
+    },
+    "35dc5c09-179a-4c9e-a097-fda3fe6965df": {
+      "ProjectGuid": "35dc5c09-179a-4c9e-a097-fda3fe6965df",
+      "DisplayName": "Client",
+      "ColorIndex": 13
+    },
+    "a35126fb-a143-4869-82fe-40e8c42afddc": {
+      "ProjectGuid": "a35126fb-a143-4869-82fe-40e8c42afddc",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 14
+    },
+    "9795e605-d669-407f-9834-f55cf5cdd554": {
+      "ProjectGuid": "9795e605-d669-407f-9834-f55cf5cdd554",
+      "DisplayName": "IdentityServerInMemory",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 0
 }

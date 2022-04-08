@@ -8,7 +8,8 @@ namespace PhaseCredit.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-   [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
+    [Authorize]
     public class ReservationController : ControllerBase
     {
         private readonly IMediator _mediator;

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PhaseCredit.API.Test.Interfaces;
 using PhaseCredit.Core.DTOs.Authentications;
+using System.Net;
 
 namespace PhaseCredit.API.Test.Controllers
 {
@@ -27,12 +28,12 @@ namespace PhaseCredit.API.Test.Controllers
                 HttpContext.Session.SetString("message", "Login Failed");
                 return RedirectToAction("Login");
             }
-            if (userLoginResponse.ResponseCode != StatusCodes.Status201Created)
+            if (userLoginResponse.ResponseCode != HttpStatusCode.Created)
             {
                 HttpContext.Session.SetString("message", userLoginResponse.ResponseMessage);
                 return RedirectToAction("Login");
             }
-            if (userLoginResponse.ResponseCode == StatusCodes.Status201Created)
+            if (userLoginResponse.ResponseCode == HttpStatusCode.Created)
             {
                 SetJWTCookie(userLoginResponse.AccessToken);
             }

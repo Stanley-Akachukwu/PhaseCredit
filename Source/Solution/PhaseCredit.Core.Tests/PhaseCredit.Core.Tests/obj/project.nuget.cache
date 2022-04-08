@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "icvmA+gQdEIBo2A3b2QlIfsT0Lu9HWWHR8thN0Emh7++jaRaF59ZtHH6i6SGpJXGxJl0xwOwTm8T/GySXl15Vg==",
+  "dgSpecHash": "ld4upjtB3i6sqZcaKoOppBOiOEOk3Q3n6pi6iI6d9vaiCahR4fJdjlKWnbxLkxltZu5rP30oq+a8SL9AQ9TLoQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\PhaseCredit\\Source\\Solution\\PhaseCredit.Core.Tests\\PhaseCredit.Core.Tests\\PhaseCredit.Core.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanl\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\stanl\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\stanl\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

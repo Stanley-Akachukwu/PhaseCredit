@@ -14,6 +14,7 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\ref\PhaseCredit.Core.Tests.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\PhaseCredit.Core.Tests.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\FluentValidation.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\IdentityModel.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Core.Tests\PhaseCredit.Core.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll

@@ -56,7 +56,13 @@ builder.Services.AddAuthentication("Bearer")
             ValidateAudience = false
         };
     });
-
+builder.Services.AddAuthorization(options =>
+    options.AddPolicy("ApiScope", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("scope", "phaseCreditAPI");
+    })
+);
 //builder.Services.AddAuthentication(options =>
 //{
 //    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -120,7 +126,7 @@ app.Use(async (ctx, next) =>
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.MapControllers().RequireAuthorization("ApiScope");
 app.MapControllers();
 
 app.Run();

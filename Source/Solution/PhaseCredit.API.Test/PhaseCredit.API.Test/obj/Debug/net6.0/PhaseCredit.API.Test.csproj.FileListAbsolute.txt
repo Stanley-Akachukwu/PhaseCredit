@@ -1,3 +1,11 @@
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.csproj.AssemblyReference.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.AssemblyInfoInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.AssemblyInfo.cs
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.csproj.CoreCompileInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.RazorAssemblyInfo.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.RazorAssemblyInfo.cs
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\appsettings.Development.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\appsettings.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\PhaseCredit.API.Test.staticwebassets.runtime.json
@@ -223,14 +231,6 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\PhaseCredit.Data.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\PhaseCredit.Core.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\PhaseCredit.Data.pdb
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.csproj.AssemblyReference.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.AssemblyInfoInputs.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.AssemblyInfo.cs
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.csproj.CoreCompileInputs.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.RazorAssemblyInfo.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.RazorAssemblyInfo.cs
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\staticwebassets.build.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\staticwebassets.development.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
@@ -241,3 +241,6 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\ref\PhaseCredit.API.Test.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.genruntimeconfig.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\System.Web.Http.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

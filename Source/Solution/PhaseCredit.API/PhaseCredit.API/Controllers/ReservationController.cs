@@ -20,6 +20,7 @@ namespace PhaseCredit.API.Controllers
         [HttpGet("reservations")]
         public async Task<ListReservationResponse> GetListAsync(CancellationToken ct)
         {
+            
             var response = new ListReservationResponse();
            
             response = await _mediator.FetchAsync(new GetReservationsQuery(),ct);

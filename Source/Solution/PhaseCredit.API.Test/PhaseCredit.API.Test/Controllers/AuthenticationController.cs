@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PhaseCredit.API.Test.Filters;
 using PhaseCredit.API.Test.Interfaces;
 using PhaseCredit.Core.DTOs.Authentications;
 using System.Net;
@@ -19,10 +20,13 @@ namespace PhaseCredit.API.Test.Controllers
             ViewBag.Message = HttpContext.Session.GetString("message");
             return View();
         }
+
         [HttpPost]
+        [AuthTokenFilterAttribute]
         public async Task<IActionResult> Login(UserLoginRequest loginRequest)
         {
-            var userLoginResponse = await _authService.AuthenticateAsync(loginRequest);
+            var isAuthorized = HttpContext.Request.Headers.TryGetValue("AccessToken", out var accessToken);
+            var userLoginResponse = await _authService.LoginAsync(loginRequest, accessToken);
             if (userLoginResponse == null)
             {
                 HttpContext.Session.SetString("message", "Login Failed");
@@ -35,19 +39,22 @@ namespace PhaseCredit.API.Test.Controllers
             }
             if (userLoginResponse.ResponseCode == HttpStatusCode.Created)
             {
-                SetJWTCookie(userLoginResponse.AccessToken);
+                SetJWTCookie(userLoginResponse.UserToken);
             }
-           
-            return RedirectToAction("FlightReservation", "TestReservation");
+
+            // return RedirectToAction("Login");
+            // return RedirectToAction("FlightReservation", "TestReservation");
+            return RedirectToAction("Users", "Index");
         }
-        private void SetJWTCookie(string accessToken)
+         
+        private void SetJWTCookie(string userToken)
         {
             var cookieOptions = new CookieOptions
             {
                 HttpOnly = true,
                 Expires = DateTime.UtcNow.AddHours(3),
             };
-            Response.Cookies.Append("jwtCookie", accessToken, cookieOptions);
+            Response.Cookies.Append("jwtCookie", userToken, cookieOptions);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PhaseCredit.API.Test.Filters;
 using PhaseCredit.API.Test.Interfaces;
 using PhaseCredit.Data.Entities.Reservations;
 using System.Net;
@@ -12,9 +13,14 @@ namespace PhaseCredit.API.Test.Controllers
         {
             _reservationService = reservationService;
         }
-       
+        [AuthTokenFilterAttribute]
         public async Task<IActionResult> FlightReservation()
         {
+            //var isAuthorized = HttpContext.Request.Headers.TryGetValue("AccessToken", out var accessToken);
+            //if (isAuthorized)
+            //{
+            //    SetJWTCookie(userLoginResponse.UserToken);
+            //}
             var jwt = Request.Cookies["jwtCookie"];
             var response =  await _reservationService.GetListAsync(jwt);
             List<Reservation> reservationList = new List<Reservation>();

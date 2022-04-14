@@ -3,11 +3,12 @@ using System.Text;
 using FluentValidation;
 using System.Text.Json;
 using PhaseCredit.API.Pipelines;
-using PhaseCredit.Core.BusinessLogic.Authentication;
 using PhaseCredit.Core.Services.Reservations;
 using PhaseCredit.Core.Services.Users;
 using PhaseCredit.Core.Services.Logs;
 using PhaseCredit.API.Common;
+using PhaseCredit.Core.Services.Authentications;
+using PhaseCredit.Core.Services.ClientAuthorization;
 
 var builder = WebApplication.CreateBuilder(args);
 //var identityServer = builder.Configuration.GetConnectionString("IdentityServer:Url");
@@ -45,29 +46,12 @@ builder.Services.AddMediator(o =>
 
     o.AddHandlersFromAssemblyOf<Program>();
 });
-
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer("Bearer", options =>
-    {
-        options.Authority = identityServer;
-
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateAudience = false
-        };
-    });
-builder.Services.AddAuthorization(options =>
-    options.AddPolicy("ApiScope", policy =>
-    {
-        policy.RequireAuthenticatedUser();
-        policy.RequireClaim("scope", "phaseCreditAPI");
-    })
-);
+//user authentication by jwt
 //builder.Services.AddAuthentication(options =>
 //{
 //    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-//    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-//    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+//options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+//options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 //})
 //    .AddJwtBearer(options =>
 //    {
@@ -84,10 +68,31 @@ builder.Services.AddAuthorization(options =>
 //        };
 //    });
 
+//user authentication by IdServer
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.Authority = identityServer;
+
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateAudience = false
+        };
+    });
+//client auth
+builder.Services.AddAuthorization(options =>
+    options.AddPolicy("ApiScope", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("scope", "phaseCreditAPI");
+    })
+);
+
+
 builder.Services.AddScoped<IAppSettings, AppSettings>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IAuthenticationManager, AuthenticationManager>();
+builder.Services.AddScoped<IClientAuthorization, ClientAuthorizationService>();
 builder.Services.AddScoped<ILogService, LogService>();
 
 var app = builder.Build();

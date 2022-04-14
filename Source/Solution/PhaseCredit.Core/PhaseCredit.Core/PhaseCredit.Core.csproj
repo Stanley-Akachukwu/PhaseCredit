@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="BusinessLogic\Authentication\" />
     <Folder Include="Enums\" />
     <Folder Include="Services\Authentications\" />
   </ItemGroup>

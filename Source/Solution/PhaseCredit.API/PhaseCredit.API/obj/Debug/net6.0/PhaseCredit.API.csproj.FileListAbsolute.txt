@@ -1,10 +1,3 @@
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.csproj.AssemblyReference.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.AssemblyInfoInputs.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.AssemblyInfo.cs
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.csproj.CoreCompileInputs.cache
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debug\net6.0\appsettings.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debug\net6.0\PhaseCredit.API.exe
@@ -45,6 +38,13 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debu
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debug\net6.0\PhaseCredit.Data.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debug\net6.0\PhaseCredit.Core.pdb
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\bin\Debug\net6.0\PhaseCredit.Data.pdb
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.csproj.AssemblyReference.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.AssemblyInfoInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.AssemblyInfo.cs
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.csproj.CoreCompileInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\PhaseCredit.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API\PhaseCredit.API\obj\Debug\net6.0\scopedcss\bundle\PhaseCredit.API.styles.css

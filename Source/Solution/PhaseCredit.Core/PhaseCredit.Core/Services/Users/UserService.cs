@@ -26,9 +26,9 @@ namespace PhaseCredit.Core.Services.Users
         public async Task<List<User>> GetDummyUsers()
         {
             var userList = new List<User> {
-            new User { UserName = "jack", Password = "jack", Role = "Admin" },
-            new User { UserName = "donald", Password = "donald", Role = "Manager" },
-            new User { UserName = "thomas", Password = "thomas", Role = "Developer" }
+            new User { UserName = "alice", Password = "alice", Role = "Admin" },
+            new User { UserName = "Bob", Password = "Bob", Role = "Manager" },
+            new User { UserName = "jack", Password = "jack", Role = "Developer" }
          };
             return await Task.FromResult(userList);
         }

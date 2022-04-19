@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Newtonsoft.Json;
 using PhaseCredit.Core.DTOs.ClientAuthorization;
-using System.Web.Http.Controllers;
-using System.Web.Http.Results;
 
 namespace PhaseCredit.API.Test.Filters
 {

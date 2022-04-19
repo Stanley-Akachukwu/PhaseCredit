@@ -13,6 +13,7 @@ namespace PhaseCredit.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
+    //[AllowAnonymous]
     public class UsersController : ControllerBase
     {
         private readonly IMediator _mediator;

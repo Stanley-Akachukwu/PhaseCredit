@@ -5,5 +5,6 @@ namespace PhaseCredit.API.Test.Interfaces
     public interface ITokenService
     {
         Task<TokenResponse> GetToken(string scope);
+        Task<bool> IsAccessTokenValid(string accessToken);
     }
 }

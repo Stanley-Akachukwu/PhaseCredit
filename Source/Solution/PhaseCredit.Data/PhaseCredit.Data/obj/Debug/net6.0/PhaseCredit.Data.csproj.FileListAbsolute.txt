@@ -2,7 +2,6 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\bin\De
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\bin\Debug\net6.0\PhaseCredit.Data.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\bin\Debug\net6.0\ref\PhaseCredit.Data.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\bin\Debug\net6.0\PhaseCredit.Data.pdb
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\obj\Debug\net6.0\PhaseCredit.Data.csproj.AssemblyReference.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\obj\Debug\net6.0\PhaseCredit.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\obj\Debug\net6.0\PhaseCredit.Data.AssemblyInfoInputs.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.Data\PhaseCredit.Data\obj\Debug\net6.0\PhaseCredit.Data.AssemblyInfo.cs

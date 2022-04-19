@@ -15,7 +15,7 @@ namespace PhaseCredit.API.Test.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("list", "Users"); ;
         }
 
         public IActionResult Privacy()

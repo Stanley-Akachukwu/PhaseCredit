@@ -7,3 +7,4 @@ namespace PhaseCredit.API.Queries.Users
     {
     }
 }
+ 

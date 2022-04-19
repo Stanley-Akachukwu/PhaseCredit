@@ -3,18 +3,17 @@ using System.Text;
 using FluentValidation;
 using System.Text.Json;
 using PhaseCredit.API.Pipelines;
-using PhaseCredit.Core.BusinessLogic.Authentication;
 using PhaseCredit.Core.Services.Reservations;
 using PhaseCredit.Core.Services.Users;
 using PhaseCredit.Core.Services.Logs;
 using PhaseCredit.API.Common;
+using PhaseCredit.Core.Services.Authentications;
+using PhaseCredit.Core.Services.ClientAuthorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 //var identityServer = builder.Configuration.GetConnectionString("IdentityServer:Url");
 var identityServer = builder.Configuration["IdentityServer:Url"];
-
-// Add services to the container. 
-
 builder.Services.AddControllers();
 
 
@@ -47,41 +46,24 @@ builder.Services.AddMediator(o =>
 });
 
 builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer("Bearer", options =>
+    .AddJwtBearer(options =>
     {
         options.Authority = identityServer;
-
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateAudience = false
-        };
+        options.TokenValidationParameters.ValidateAudience = false;
     });
+builder.Services.AddAuthorization(options =>
+    options.AddPolicy("ApiScope", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("scope", "phaseCreditAPI");
+    })
+);
 
-//builder.Services.AddAuthentication(options =>
-//{
-//    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-//    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-//    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-//})
-//    .AddJwtBearer(options =>
-//    {
-//        options.SaveToken = true;
-//        options.RequireHttpsMetadata = false;
-//        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-//        {
-//            ValidateIssuer = true,
-//            ValidateAudience = true,
-//            ValidAudience = "https://www.phasecredit.com",
-//            ValidIssuer = "https://www.phasecredit.com",
-//            ClockSkew = TimeSpan.Zero,// It forces tokens to expire exactly at token expiration time instead of 5 minutes later
-//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("phasecredit-for-soledealler01"))
-//        };
-//    });
 
 builder.Services.AddScoped<IAppSettings, AppSettings>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IAuthenticationManager, AuthenticationManager>();
+builder.Services.AddScoped<IClientAuthorization, ClientAuthorizationService>();
 builder.Services.AddScoped<ILogService, LogService>();
 
 var app = builder.Build();
@@ -118,9 +100,10 @@ app.Use(async (ctx, next) =>
     }
 });
 app.UseHttpsRedirection();
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.MapControllers().RequireAuthorization("ApiScope");
 app.MapControllers();
 
 app.Run();

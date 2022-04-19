@@ -1,3 +1,4 @@
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\appsettings.Development.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\appsettings.json
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\PhaseCredit.API.Test.staticwebassets.runtime.json
@@ -12,6 +13,7 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\IdentityModel.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\MessagePack.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.Build.Locator.dll
@@ -34,7 +36,10 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -53,6 +58,9 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -160,7 +168,6 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
@@ -228,6 +235,7 @@ C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Tes
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.AssemblyInfoInputs.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.AssemblyInfo.cs
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.csproj.CoreCompileInputs.cache
+C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.RazorAssemblyInfo.cache
 C:\Projects\PhaseCredit\Source\Solution\PhaseCredit.API.Test\PhaseCredit.API.Test\obj\Debug\net6.0\PhaseCredit.API.Test.RazorAssemblyInfo.cs

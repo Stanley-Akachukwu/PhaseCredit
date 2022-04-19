@@ -85,7 +85,22 @@
       "ProjectGuid": "9795e605-d669-407f-9834-f55cf5cdd554",
       "DisplayName": "IdentityServerInMemory",
       "ColorIndex": 15
+    },
+    "cbffa0ad-ebad-4581-b294-5ad3790c675b": {
+      "ProjectGuid": "cbffa0ad-ebad-4581-b294-5ad3790c675b",
+      "DisplayName": "IdentityServerInMemory",
+      "ColorIndex": 0
+    },
+    "20620894-85f8-4831-ad7e-1465460507bc": {
+      "ProjectGuid": "20620894-85f8-4831-ad7e-1465460507bc",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 1
+    },
+    "80105587-0553-45eb-96b4-e0de7a0871a9": {
+      "ProjectGuid": "80105587-0553-45eb-96b4-e0de7a0871a9",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 3
 }

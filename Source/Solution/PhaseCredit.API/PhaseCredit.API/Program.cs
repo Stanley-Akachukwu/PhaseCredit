@@ -9,11 +9,10 @@ using PhaseCredit.Core.Services.Logs;
 using PhaseCredit.API.Common;
 using PhaseCredit.Core.Services.Authentications;
 using PhaseCredit.Core.Services.ClientAuthorization;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 //var identityServer = builder.Configuration.GetConnectionString("IdentityServer:Url");
-var identityServer = builder.Configuration["IdentityServer:Url"];
+//var identityServer = builder.Configuration["IdentityServer:Url"];
 builder.Services.AddControllers();
 
 
@@ -45,19 +44,19 @@ builder.Services.AddMediator(o =>
     o.AddHandlersFromAssemblyOf<Program>();
 });
 
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer(options =>
-    {
-        options.Authority = identityServer;
-        options.TokenValidationParameters.ValidateAudience = false;
-    });
-builder.Services.AddAuthorization(options =>
-    options.AddPolicy("ApiScope", policy =>
-    {
-        policy.RequireAuthenticatedUser();
-        policy.RequireClaim("scope", "phaseCreditAPI");
-    })
-);
+//builder.Services.AddAuthentication("Bearer")
+//    .AddJwtBearer(options =>
+//    {
+//        options.Authority = identityServer;
+//        options.TokenValidationParameters.ValidateAudience = false;
+//    });
+//builder.Services.AddAuthorization(options =>
+//    options.AddPolicy("ApiScope", policy =>
+//    {
+//        policy.RequireAuthenticatedUser();
+//        policy.RequireClaim("scope", "phaseCreditAPI");
+//    })
+//);
 
 
 builder.Services.AddScoped<IAppSettings, AppSettings>();
@@ -101,9 +100,9 @@ app.Use(async (ctx, next) =>
 });
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseAuthentication();
-app.UseAuthorization();
-app.MapControllers().RequireAuthorization("ApiScope");
+//app.UseAuthentication();
+//app.UseAuthorization();
+//app.MapControllers().RequireAuthorization("ApiScope");
 app.MapControllers();
 
 app.Run();

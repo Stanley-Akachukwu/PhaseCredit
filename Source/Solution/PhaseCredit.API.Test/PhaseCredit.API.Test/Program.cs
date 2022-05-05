@@ -8,31 +8,34 @@ using System.IdentityModel.Tokens.Jwt;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
-JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
+//JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
+//IdentityModelEventSource.ShowPII = true;
+//builder.Services.AddAuthentication(options =>
+//{
+//    options.DefaultScheme = "Cookies";
+//    options.DefaultChallengeScheme = "oidc";
+//})
+//    .AddCookie("Cookies")
+//    .AddOpenIdConnect("oidc", options =>
+//    {
+//        options.Authority = builder.Configuration["InteractiveServiceSettings:AuthorityUrl"];
+//        options.ClientId = builder.Configuration["InteractiveServiceSettings:ClientId"];
+//        options.ClientSecret = builder.Configuration["InteractiveServiceSettings:ClientSecret"];
+//        options.ResponseType = "code";
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultScheme = "Cookies";
-    options.DefaultChallengeScheme = "oidc";
-})
-    .AddCookie("Cookies")
-    .AddOpenIdConnect("oidc", options =>
-    {
-        options.Authority = builder.Configuration["InteractiveServiceSettings:AuthorityUrl"];
-        options.ClientId = builder.Configuration["InteractiveServiceSettings:ClientId"];
-        options.ClientSecret = builder.Configuration["InteractiveServiceSettings:ClientSecret"];
-        options.ResponseType = "code";
+//        options.Scope.Clear();
+//        options.Scope.Add("openid");
+//        options.Scope.Add("profile");
+//        options.Scope.Add("verification");
+//        options.Scope.Add("role");
+//        options.GetClaimsFromUserInfoEndpoint = true;
+//        options.ClaimActions.MapJsonKey("email_verified", "email_verified");
+//        options.ClaimActions.MapJsonKey("role", "role");//newly added
+//        options.TokenValidationParameters.NameClaimType = "name";//newly added
+//        options.TokenValidationParameters.RoleClaimType = "role";//newly added
 
-        options.Scope.Clear();
-        options.Scope.Add("openid");
-        options.Scope.Add("profile");
-        options.Scope.Add("verification");
-        options.Scope.Add("role");
-        options.ClaimActions.MapJsonKey("email_verified", "email_verified");
-        options.GetClaimsFromUserInfoEndpoint = true;
-
-        options.SaveTokens = true;
-    });
+//        options.SaveTokens = true;
+//    });
 
 
 
@@ -44,7 +47,7 @@ builder.Services.AddSingleton<ITokenService, TokenService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAppSettings, AppSettings>();
 
-builder.Services.Configure<IdentityServerSettings>(builder.Configuration.GetSection("IdentityServerSettings"));
+//builder.Services.Configure<IdentityServerSettings>(builder.Configuration.GetSection("IdentityServerSettings"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -59,8 +62,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-app.UseAuthentication();
-app.UseAuthorization();
+//app.UseAuthentication();
+//app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

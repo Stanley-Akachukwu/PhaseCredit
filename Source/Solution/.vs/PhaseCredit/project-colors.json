@@ -100,7 +100,22 @@
       "ProjectGuid": "80105587-0553-45eb-96b4-e0de7a0871a9",
       "DisplayName": "IdentityServer",
       "ColorIndex": 2
+    },
+    "e8305774-a1b5-47f3-aac1-d4e3c2915863": {
+      "ProjectGuid": "e8305774-a1b5-47f3-aac1-d4e3c2915863",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 3
+    },
+    "d2803025-c8b7-49f5-8154-8e2b6205fe52": {
+      "ProjectGuid": "d2803025-c8b7-49f5-8154-8e2b6205fe52",
+      "DisplayName": "AspnetIdentityServer",
+      "ColorIndex": 4
+    },
+    "15f2a701-1e74-4a1c-a2c0-e17516d75a75": {
+      "ProjectGuid": "15f2a701-1e74-4a1c-a2c0-e17516d75a75",
+      "DisplayName": "IdentityServerAspNetIdentity",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }

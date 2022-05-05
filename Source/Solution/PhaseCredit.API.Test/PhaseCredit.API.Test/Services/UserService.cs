@@ -19,7 +19,7 @@ namespace PhaseCredit.API.Test.Services
 
             using (var httpClient = new HttpClient())
             {
-                httpClient.SetBearerToken(accessToken);
+                //httpClient.SetBearerToken(accessToken);
                 using (var response = await httpClient.GetAsync(_appSettings.PhaseCreditAPIUrl+ _appSettings.PhaseCreditAPIGetUsers))
                 {
                     if (!response.IsSuccessStatusCode)

@@ -12,8 +12,9 @@ namespace PhaseCredit.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+   // [Authorize(Roles = "Admin")]
     //[AllowAnonymous]
+   // [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -22,6 +23,7 @@ namespace PhaseCredit.API.Controllers
             _mediator = mediator;
         }
         [HttpGet]
+        //[SaveRequest]
         public async Task<UsersResponse> GetListAsync(CancellationToken ct)
         {
             //Start from users controller. Look at the sample projects @ C:\Projects++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
